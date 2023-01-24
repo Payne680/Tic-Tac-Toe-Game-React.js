@@ -1,0 +1,40 @@
+body {
+  background-color: grey;
+}
+
+.App{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Board{
+  padding: 15px;
+  gap: 15px;
+  width: min-content;
+  height: min-content;
+  display: grid;
+  border-radius: 20px;
+  grid-template-columns: repeat(3, 100px);
+  background-color: black;
+}
+
+.Tile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #998f7e;
+  width: 100px;
+  height: 100px;
+}
+
+button {
+  cursor: pointer;
+  background-color: green;
+  color: #fff;
+  border-radius: 10px;
+}
